@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Try triangle</title>
+        <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid gray;
+        }
+
+        TD, TH {
+            padding: 3px; /* Поля вокруг содержимого таблицы */
+            border: 1px solid black; /* Параметры рамки */
+            text-align: center;
+        }
+
+        .triangle{
+            border: 30px solid transparent;
+            border-bottom: 30px solid green;
+        }
+        
+        .circle{
+            border-radius: 50%;
+            background: red;
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        .square{
+            background: blue;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption style="caption-side: bottom; align: right;">Таб. 1. Что-то странное</caption>
+            <tr>
+                <th>Square</th>
+                <th>Triangle</th>
+                <th>Circle</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td><div class="circle"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    <div class="triangle">
+                </td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td><div class="square"></td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </body>
+</html>
